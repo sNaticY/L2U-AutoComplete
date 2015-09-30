@@ -1,0 +1,124 @@
+{
+  "scope":"source.lua",
+  "completions":[{
+      "contents":"L2U.FindGameObject( ${1:goName}, ${2:parentGO} )",
+      "trigger":"L2U.FindGameObject"
+    },{
+      "contents":"L2U.CloneGameObject( ${1:go}, ${2:parentGO} )",
+      "trigger":"L2U.CloneGameObject"
+    },{
+      "contents":"L2U.DestroyGameObject( ${1:go} )",
+      "trigger":"L2U.DestroyGameObject"
+    },{
+      "contents":"L2U.FindGameObjectAsComponent( ${1:goName}, ${2:componentType}, ${3:parentGO})",
+      "trigger":"L2U.FindGameObjectAsComponent"
+    },{
+      "contents":"L2U.FindGameObjectAsComponent( ${1:goName}, ${2:componentType}, ${3:parentGO})",
+      "trigger":"L2U.FindGameObjectAsComponent"
+    },{
+      "contents":"L2U.PlayGameObjectAnimation( ${1:go}, ${2:animName}, ${3:speed})",
+      "trigger":"L2U.PlayGameObjectAnimation"
+    },{
+      "contents":"L2U.StopGameObjectAnimation( ${1:go}, ${2:animName} )",
+      "trigger":"L2U.StopGameObjectAnimation"
+    },{
+      "contents":"L2U.SetGameObjectAnimationSpeed( ${1:go}, ${2:animName}, ${3:speed})",
+      "trigger":"L2U.SetGameObjectAnimationSpeed"
+    },{
+      "contents":"L2U.GetGameObjectAnimationLength( ${1:go}, ${2:animName} )",
+      "trigger":"L2U.GetGameObjectAnimationLength"
+    },{
+      "contents":"L2U.SetGameObjectLayer( ${1:go}, ${2:layer} )",
+      "trigger":"L2U.SetGameObjectLayer"
+    },{
+      "contents":"L2U.SetGameObjectLayerSameAsOther( ${1:go}, ${2:theOtherGO} )",
+      "trigger":"L2U.SetGameObjectLayerSameAsOther"
+    },{
+      "contents":"L2U.SetGameObjectLayerWithoutChildren( ${1:go}, ${2:layer} )",
+      "trigger":"L2U.SetGameObjectLayerWithoutChildren"
+    },{
+      "contents":"L2U.GetScreenWidthAndHeight()",
+      "trigger":"L2U.GetScreenWidthAndHeight"
+    },{
+      "contents":"L2U.TryGetPickedGameObjectInSelectableModel( ${1:pickingPos} )",
+      "trigger":"L2U.TryGetPickedGameObjectInSelectableModel"
+    },{
+      "contents":"L2U.AddUiButtonClickEventHandler( ${1:go}, ${2:luaFunc} )",
+      "trigger":"L2U.AddUiButtonClickEventHandler"
+    },{
+      "contents":"L2U.AddUiButtonHoverEventHandler( ${1:go}, ${2:luaFunc} )",
+      "trigger":"L2U.AddUiButtonHoverEventHandler"
+    },{
+      "contents":"L2U.AddUiButtonPressEventHandler( ${1:go}, ${2:luaFunc} )",
+      "trigger":"L2U.AddUiButtonPressEventHandler"
+    },{
+      "contents":"L2U.AddUiButtonDragEventHandler( ${1:go}, ${2:luaFunc} )",
+      "trigger":"L2U.AddUiButtonDragEventHandler"
+    },{
+      "contents":"L2U.IsUIWidgetPivotEqual( ${1:PivotX}, ${2:PivotY} )",
+      "trigger":"L2U.IsUIWidgetPivotEqual"
+    },{
+      "contents":"L2U.IsNameLegalAndGetLength( ${1:name} )",
+      "trigger":"L2U.IsNameLegalAndGetLength"
+    },{
+      "contents":"L2U.SetTimeScale( ${1:scale} )",
+      "trigger":"L2U.SetTimeScale"
+    },{
+      "contents":"L2U.GetQuality()",
+      "trigger":"L2U.GetQuality"
+    },{
+      "contents":"L2U.SetQuality( ${1:index} )",
+      "trigger":"L2U.SetQuality"
+    },{
+      "contents":"L2U.IsAudioEnabled()",
+      "trigger":"L2U.IsAudioEnabled"
+    },{
+      "contents":"L2U.SetAudioEnabled( ${1:enabled} )",
+      "trigger":"L2U.SetAudioEnabled"
+    },{
+      "contents":"L2U.GetAudioListenerVolume()",
+      "trigger":"L2U.GetAudioListenerVolume"
+    },{
+      "contents":"L2U.SetAudioListenerVolume( ${1:volume} )",
+      "trigger":"L2U.SetAudioListenerVolume"
+    },{
+      "contents":"setGameObjectPosition2D( ${1:go}, ${2:positionXZ}, ${3:positionY} )",
+      "trigger":"setGameObjectPosition2D"
+    },{
+      "contents":"setGameObjectPosition3D( ${1:go}, ${2:positionXYZ} )",
+      "trigger":"setGameObjectPosition3D"
+    },{
+      "contents":"setGameObjectWorldPosition3D( ${1:go}, ${2:positionXYZ} )",
+      "trigger":"setGameObjectWorldPosition3D"
+    },{
+      "contents":"setGameObjectRotation2D( ${1:go}, ${2:orientationXZ} )",
+      "trigger":"setGameObjectRotation2D"
+    },{
+      "contents":"setGameObjectWorldRotation2D( ${1:go}, ${2:orientationXZ} )",
+      "trigger":"setGameObjectWorldRotation2D"
+    },{
+      "contents":"setGameObjectRotation3D( ${1:go}, ${2:orientationXYZ} )",
+      "trigger":"setGameObjectRotation3D"
+    },{
+      "contents":"setGameObjectEulerAngles( ${1:go}, ${2:anglesXYZ} )",
+      "trigger":"setGameObjectEulerAngles"
+    },{
+      "contents":"setGameObjectTransformToTheOther( ${1:go}, ${2:theOtherGO} )",
+      "trigger":"setGameObjectTransformToTheOther"
+    },{
+      "contents":"setGameObjectPositionToTheOther( ${1:go}, ${2:theOtherGO} )",
+      "trigger":"setGameObjectPositionToTheOther"
+    },{
+      "contents":"setGameObjectWorldPositionToTheOther( ${1:go}, ${2:theOtherGO} )",
+      "trigger":"setGameObjectWorldPositionToTheOther"
+    },{
+      "contents":"setGameObjectRotationToTheOther( ${1:go}, ${2:theOtherGO} )",
+      "trigger":"setGameObjectRotationToTheOther"
+    },{
+      "contents":"setUiGameObjectTransform( ${1:go}, ${2:positionXY}, ${3:anglesXYZ} )",
+      "trigger":"setUiGameObjectTransform"
+    },{
+      "contents":"setGameObjectScale( ${1:go}, ${2:scale} )",
+      "trigger":"setGameObjectScale"
+    }]
+}

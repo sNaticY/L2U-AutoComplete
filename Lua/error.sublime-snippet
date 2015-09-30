@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[error( ${1:message} )]]></content>
+    <tabTrigger>error</tabTrigger>
+    <scope>source.lua</scope>
+    <description>(message)</description>
+</snippet>
