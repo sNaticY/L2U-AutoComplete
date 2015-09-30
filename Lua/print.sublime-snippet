@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[print( ${1:message} )]]></content>
-    <tabTrigger>print</tabTrigger>
-    <scope>source.lua</scope>
-    <description>(message)</description>
-</snippet>
