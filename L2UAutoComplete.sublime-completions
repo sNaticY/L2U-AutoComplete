@@ -82,6 +82,27 @@
       "contents":"L2U.SetAudioListenerVolume( ${1:volume} )",
       "trigger":"L2U.SetAudioListenerVolume"
     },{
+      "contents":"AssetLoader.LoadScene( ${1:sceneName}, ${1:luaCallbackFunc} )",
+      "trigger":"AssetLoader.LoadScene"
+    },{
+      "contents":"AssetLoader.LoadSceneAdditive( ${1:sceneName} )",
+      "trigger":"AssetLoader.LoadSceneAdditive"
+    },{
+      "contents":"AssetLoader.LoadTexture( ${1:texturePath} )",
+      "trigger":"AssetLoader.LoadTexture"
+    },{
+      "contents":"AssetLoader.LoadPrefab( ${1:prefabPath}, ${1:parent} )",
+      "trigger":"AssetLoader.LoadPrefab"
+    },{
+      "contents":"AssetLoader.LoadCharacterPrefab( ${1:prefabPath}, ${1:parent} )",
+      "trigger":"AssetLoader.LoadCharacterPrefab"
+    },{
+      "contents":"AssetLoader.LoadUiPrefab( ${1:prefabPath}, ${1:parent} )",
+      "trigger":"AssetLoader.LoadUiPrefab"
+    },{
+      "contents":"AssetLoader.UnloadPrefab( ${1:prefab} )",
+      "trigger":"AssetLoader.UnloadPrefab"
+    },{
       "contents":"setGameObjectPosition2D( ${1:go}, ${2:positionXZ}, ${3:positionY} )",
       "trigger":"setGameObjectPosition2D"
     },{
