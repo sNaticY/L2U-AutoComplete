@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[type(${1:v})]]></content>
+    <content><![CDATA[type( ${1:v} )]]></content>
     <tabTrigger>type</tabTrigger>
     <scope>source.lua</scope>
     <description>(v)</description>

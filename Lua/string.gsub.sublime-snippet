@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[string.gsub(${1:s}, ${2:pattern}, ${3:repl}, ${4:n})]]></content>
+    <content><![CDATA[string.gsub( ${1:s}, ${2:pattern}, ${3:repl}, ${4:n} )]]></content>
     <tabTrigger>string.gsub</tabTrigger>
     <scope>source.lua</scope>
     <description>(s, pattern, repl [, n])</description>

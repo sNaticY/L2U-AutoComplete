@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[os.time(${1:table})]]></content>
+    <content><![CDATA[os.time( ${1:table} )]]></content>
     <tabTrigger>os.time</tabTrigger>
     <scope>source.lua</scope>
     <description>([table])</description>

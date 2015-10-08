@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[string.len(${1:s})]]></content>
+    <content><![CDATA[string.len( ${1:s} )]]></content>
     <tabTrigger>string.len</tabTrigger>
     <scope>source.lua</scope>
     <description>(s)</description>

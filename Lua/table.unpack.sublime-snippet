@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[table.unpack(${1:list}, ${2:i}, ${3:j})]]></content>
+    <content><![CDATA[table.unpack( ${1:list}, ${2:i}, ${3:j} )]]></content>
     <tabTrigger>table.unpack</tabTrigger>
     <scope>source.lua</scope>
     <description>(list [, i [, j]])</description>

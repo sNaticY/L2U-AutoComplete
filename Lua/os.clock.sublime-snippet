@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[os.clock ()]]></content>
+    <content><![CDATA[os.clock()]]></content>
     <tabTrigger>os.clock</tabTrigger>
     <scope>source.lua</scope>
     <description>()</description>

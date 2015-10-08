@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[next(${1:table}, ${2:index})]]></content>
+    <content><![CDATA[next( ${1:table}, ${2:index} )]]></content>
     <tabTrigger>next</tabTrigger>
     <scope>source.lua</scope>
     <description>(table [, index])</description>
