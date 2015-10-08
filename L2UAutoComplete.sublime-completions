@@ -1,22 +1,19 @@
 {
   "scope":"source.lua",
   "completions":[{
-      "contents":"L2U.FindGameObject( ${1:goName}, ${2:parentGO} )",
+      "contents":"L2U.FindGameObject( ${1:goName}, ${2:parentGO:1}, ${3:mustExist:2} )",
       "trigger":"L2U.FindGameObject"
     },{
-      "contents":"L2U.CloneGameObject( ${1:go}, ${2:parentGO} )",
+      "contents":"L2U.CloneGameObject( ${1:go}, ${2:parentGO:1} )",
       "trigger":"L2U.CloneGameObject"
     },{
       "contents":"L2U.DestroyGameObject( ${1:go} )",
       "trigger":"L2U.DestroyGameObject"
     },{
-      "contents":"L2U.FindGameObjectAsComponent( ${1:goName}, ${2:componentType}, ${3:parentGO})",
+      "contents":"L2U.FindGameObjectAsComponent( ${1:goName}, ${2:componentType}, ${3:parentGO:1} )",
       "trigger":"L2U.FindGameObjectAsComponent"
     },{
-      "contents":"L2U.FindGameObjectAsComponent( ${1:goName}, ${2:componentType}, ${3:parentGO})",
-      "trigger":"L2U.FindGameObjectAsComponent"
-    },{
-      "contents":"L2U.PlayGameObjectAnimation( ${1:go}, ${2:animName}, ${3:speed})",
+      "contents":"L2U.PlayGameObjectAnimation( ${1:go}, ${2:animName}, ${3:speed:1}, ${4:startTime:2} )",
       "trigger":"L2U.PlayGameObjectAnimation"
     },{
       "contents":"L2U.StopGameObjectAnimation( ${1:go}, ${2:animName} )",
@@ -120,5 +117,29 @@
     },{
       "contents":"setGameObjectScale( ${1:go}, ${2:scale} )",
       "trigger":"setGameObjectScale"
+    },{
+      "contents":"LoadScene( ${1:sceneName}, ${2:luaCallbackFunc:1} )",
+      "trigger":"LoadScene"
+    },{
+      "contents":"LoadSceneAdditive( ${1:sceneName} )",
+      "trigger":"LoadSceneAdditive"
+    },{
+      "contents":"LoadTexture( ${1:texturePath} )",
+      "trigger":"LoadTexture"
+    },{
+      "contents":"LoadAudio( ${1:audioPath} )",
+      "trigger":"LoadAudio"
+    },{
+      "contents":"LoadPrefab( ${1:prefabPath}, ${2:parent:1} )",
+      "trigger":"LoadPrefab"
+    },{
+      "contents":"LoadCharacterPrefab( ${1:prefabPath}, ${2:parent:1} )",
+      "trigger":"LoadCharacterPrefab"
+    },{
+      "contents":"LoadUiPrefab( ${1:prefabPath}, ${2:parent:1} )",
+      "trigger":"LoadUiPrefab"
+    },{
+      "contents":"UnloadPrefab( ${1:prefab} )",
+      "trigger":"UnloadPrefab"
     }]
 }
