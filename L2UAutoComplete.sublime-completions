@@ -79,7 +79,7 @@
       "contents":"L2U.SetAudioListenerVolume( ${1:volume} )",
       "trigger":"L2U.SetAudioListenerVolume"
     },{
-      "contents":"AssetLoader.LoadScene( ${1:sceneName}, ${1:luaCallbackFunc} )",
+      "contents":"AssetLoader.LoadScene( ${1:sceneName}, ${2:luaCallbackFunc:1} )",
       "trigger":"AssetLoader.LoadScene"
     },{
       "contents":"AssetLoader.LoadSceneAdditive( ${1:sceneName} )",
@@ -88,13 +88,13 @@
       "contents":"AssetLoader.LoadTexture( ${1:texturePath} )",
       "trigger":"AssetLoader.LoadTexture"
     },{
-      "contents":"AssetLoader.LoadPrefab( ${1:prefabPath}, ${1:parent} )",
+      "contents":"AssetLoader.LoadPrefab( ${1:prefabPath}, ${2:parent:1} )",
       "trigger":"AssetLoader.LoadPrefab"
     },{
-      "contents":"AssetLoader.LoadCharacterPrefab( ${1:prefabPath}, ${1:parent} )",
+      "contents":"AssetLoader.LoadCharacterPrefab( ${1:prefabPath}, ${2:parent:1} )",
       "trigger":"AssetLoader.LoadCharacterPrefab"
     },{
-      "contents":"AssetLoader.LoadUiPrefab( ${1:prefabPath}, ${1:parent} )",
+      "contents":"AssetLoader.LoadUiPrefab( ${1:prefabPath}, ${2:parent:1} )",
       "trigger":"AssetLoader.LoadUiPrefab"
     },{
       "contents":"AssetLoader.UnloadPrefab( ${1:prefab} )",
@@ -138,29 +138,5 @@
     },{
       "contents":"setGameObjectScale( ${1:go}, ${2:scale} )",
       "trigger":"setGameObjectScale"
-    },{
-      "contents":"LoadScene( ${1:sceneName}, ${2:luaCallbackFunc:1} )",
-      "trigger":"LoadScene"
-    },{
-      "contents":"LoadSceneAdditive( ${1:sceneName} )",
-      "trigger":"LoadSceneAdditive"
-    },{
-      "contents":"LoadTexture( ${1:texturePath} )",
-      "trigger":"LoadTexture"
-    },{
-      "contents":"LoadAudio( ${1:audioPath} )",
-      "trigger":"LoadAudio"
-    },{
-      "contents":"LoadPrefab( ${1:prefabPath}, ${2:parent:1} )",
-      "trigger":"LoadPrefab"
-    },{
-      "contents":"LoadCharacterPrefab( ${1:prefabPath}, ${2:parent:1} )",
-      "trigger":"LoadCharacterPrefab"
-    },{
-      "contents":"LoadUiPrefab( ${1:prefabPath}, ${2:parent:1} )",
-      "trigger":"LoadUiPrefab"
-    },{
-      "contents":"UnloadPrefab( ${1:prefab} )",
-      "trigger":"UnloadPrefab"
     }]
 }
